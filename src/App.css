@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+}
+
+.task dt {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.task dd {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 10px;
+  margin-top: 2px; /* Ajusta según sea necesario */
+}
